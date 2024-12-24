@@ -15,7 +15,7 @@ const galleryImages = [
 export default function Gallery() {
   const [showAll, setShowAll] = useState(false)
 
-  const visibleImages = showAll ? galleryImages : galleryImages.slice(0, 2)
+  const visibleImages = showAll ? galleryImages : galleryImages.slice(0, 3)
 
   return (
     <section id="gallery" className="py-16 bg-gray-100">
